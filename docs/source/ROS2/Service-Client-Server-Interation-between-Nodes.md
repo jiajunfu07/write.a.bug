@@ -294,4 +294,28 @@ $ ros2 run my_cpp_pkg number_counter
 
 ## Writing a service client
 ### Writing a Python service client
+Create a new file named `reset_counter_client.py` inside the `my_py_pkg` package. Make this file executable. The file should be placed with all the other Python files you created previously. \
+Open the file and start by importing the interface:
+```python
+from my_robot_interfaces.srv import ResetCounter
+```
+In the node's constructor, create a service client:
+```python
+class ResetCounterClientNode(Node):
+    def __init__(self):
+        super().__init__('reset_counter_client')
+        self.client_ = self.create_client(ResetCounter, 'reset_counter')
+```
+To create the service client, we use the `create_client()` method from the `Node` class. We need to provide the service interface and service name. Make sure you use the same name and interface you defined in the server. Then, to call the service, we create a new method:
+```python
+def call_reset_counter(self, value):
+    while not self.client_.wait_for_service(1.0):
+        self.get_logger().warn("Waiting for service...")
+    request = ResetCounter.Request()
+    request.reset_value = value
+    future = self.client_.call_async(request)
+    future.add_done_callback(self.callback_reset_counter_response)
+```
+Here are the steps to make a service call:
+1. Make sure the service is up and running by calling the `wait_for_service()`. This
 ### Writing a C++ service client
