@@ -1,6 +1,6 @@
-# Topics: Sending and Receiving Messages between Nodes
+# Chapter 2: Topics: Sending and Receiving Messages between Nodes
 **Table of Contents**
-- [Topics: Sending and Receiving Messages between Nodes](#topics-sending-and-receiving-messages-between-nodes)
+- [Chapter 2: Topics: Sending and Receiving Messages between Nodes](#chapter-2-topics-sending-and-receiving-messages-between-nodes)
   - [What is a ROS 2 Topic?](#what-is-a-ros-2-topic)
   - [Writing a Publisher Node](#writing-a-publisher-node)
     - [Writing a Python Publisher](#writing-a-python-publisher)

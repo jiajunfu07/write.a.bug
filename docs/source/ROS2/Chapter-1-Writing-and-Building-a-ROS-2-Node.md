@@ -1,6 +1,6 @@
-# Writing and Building a ROS 2 Node
+# Chapter 1: Writing and Building a ROS 2 Node
 **Table of Contents**
-- [Writing and Building a ROS 2 Node](#writing-and-building-a-ros-2-node)
+- [Chapter 1: Writing and Building a ROS 2 Node](#chapter-1-writing-and-building-a-ros-2-node)
   - [Creating a workspace](#creating-a-workspace)
     - [Building the workspace](#building-the-workspace)
   - [Create a package](#create-a-package)

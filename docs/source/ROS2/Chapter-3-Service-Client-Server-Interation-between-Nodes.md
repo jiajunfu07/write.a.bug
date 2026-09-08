@@ -1,7 +1,7 @@
-# Service: Client/Server Interaction between Nodes
+# Chapter 3: Service: Client/Server Interaction between Nodes
 
 **Table of Contents**
-- [Service: Client/Server Interaction between Nodes](#service-clientserver-interaction-between-nodes)
+- [Chapter 3: Service: Client/Server Interaction between Nodes](#chapter-3-service-clientserver-interaction-between-nodes)
   - [What is a ROS 2 Service?](#what-is-a-ros-2-service)
   - [Creating a custom service interface](#creating-a-custom-service-interface)
     - [Finding an existing service interface](#finding-an-existing-service-interface)
