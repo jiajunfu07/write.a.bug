@@ -11,6 +11,8 @@ JF Debug Documentation
    :maxdepth: 1
    :hidden:
 
+   ROS2-Course
+   ROS2-Courseware
    ROS-2-from-Scratch
 
 Indices and tables
