@@ -14,6 +14,8 @@ JF Debug Documentation
    ROS2-Course
    ROS2-Courseware
    ROS-2-from-Scratch
+   RL-Course
+   RL-Courseware
 
 Indices and tables
 ==================
