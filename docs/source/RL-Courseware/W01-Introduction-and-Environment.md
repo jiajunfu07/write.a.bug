@@ -1,6 +1,6 @@
 # W01 · 什么是 RL + 环境搭建（课件）
 
-> 对应阅读: Ch1 Introduction (PDF p.23–44)，重点 1.2 Examples、1.3 Elements、1.5 Tic-Tac-Toe
+> 对应阅读: Ch1 Introduction (p.1–22)，重点 1.2 Examples、1.3 Elements、1.5 Tic-Tac-Toe
 > 里程碑: 环境跑通 + 随机 agent · 交付: 环境清单 + 10 局结果截图
 > 配套笔记: 建议 `Chapter-1-Introduction.md`（待写）
 

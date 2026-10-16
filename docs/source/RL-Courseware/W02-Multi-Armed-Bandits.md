@@ -1,6 +1,6 @@
 # W02 · 多臂老虎机（课件）
 
-> 对应阅读: Ch2 Multi-armed Bandits (PDF p.47–68)，重点 2.3–2.7
+> 对应阅读: Ch2 Multi-armed Bandits (p.25–46)，重点 2.3–2.7
 > 里程碑: 10-armed testbed 四条曲线 + 结论
 > 配套笔记: 建议 `Chapter-2-Multi-Armed-Bandits.md`（待写）
 

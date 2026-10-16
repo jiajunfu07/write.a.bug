@@ -1,6 +1,6 @@
 # W12 · 资格迹：TD(λ)（课件）
 
-> 对应阅读: Ch12 Eligibility Traces (PDF p.309–342)，重点 12.1 λ-return、12.2 TD(λ)、12.4 True Online、12.7 Sarsa(λ)
+> 对应阅读: Ch12 Eligibility Traces (p.287–320)，重点 12.1 λ-return、12.2 TD(λ)、12.4 True Online、12.7 Sarsa(λ)
 > 里程碑: λ 扫描曲线（0 → 1）+ 稳定性结论
 > 配套笔记: 建议 `Chapter-12-Eligibility-Traces.md`（待写）
 

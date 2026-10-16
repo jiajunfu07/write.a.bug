@@ -1,6 +1,6 @@
 # W10 · 半梯度控制：DQN（课件）
 
-> 对应阅读: Ch10 On-policy Control with Approximation (PDF p.265–278)，重点 10.2 semi-gradient n-step Sarsa、10.3–10.4 DQN 要点
+> 对应阅读: Ch10 On-policy Control with Approximation (p.243–256)，重点 10.2 semi-gradient n-step Sarsa、10.3–10.4 DQN 要点
 > 里程碑: CartPole/Breakout 的 DQN（手写简化版 + SB3 对比）
 > 配套笔记: 建议 `Chapter-10-DQN-and-Semi-gradient.md`（待写）
 

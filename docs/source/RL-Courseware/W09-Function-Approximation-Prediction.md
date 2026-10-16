@@ -1,6 +1,6 @@
 # W09 · 函数近似：预测（课件）
 
-> 对应阅读: Ch9 On-policy Prediction with Approximation (PDF p.219–264)，重点 9.3/9.4/9.5 tile coding/9.7 ANN
+> 对应阅读: Ch9 On-policy Prediction with Approximation (p.197–242)，重点 9.3/9.4/9.5 tile coding/9.7 ANN
 > 里程碑: MountainCar 的线性(tile) + 小网络 TD 预测
 > 配套笔记: 建议 `Chapter-9-Function-Approximation.md`（待写）
 

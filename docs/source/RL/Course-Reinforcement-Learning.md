@@ -3,7 +3,7 @@
 > **课程编号**: RL-201 · **学分**: 3 · **周期**: 16 周（每周 2 讲时 + 4 实验时，共 96 学时）
 > **面向人群**: 计算机 / 自动化 / 数学专业本科生及以上，以及系统自学者
 > **教材**:
-> - 主教材 **R** — *Reinforcement Learning: An Introduction*, 2nd ed. (draft, 2020, 548 页), Richard S. Sutton & Andrew G. Barto
+> - 主教材 **R** — *Reinforcement Learning: An Introduction*, 2nd ed. (draft, 2020, 526 页), Richard S. Sutton & Andrew G. Barto
 > - 辅助材料: OpenAI Spinning Up、stable-baselines3 文档、Gymnasium 文档
 
 ## 1. 课程概述
@@ -34,32 +34,32 @@
 
 | 用途 | 材料 |
 |---|---|
-| 理论主线（必读） | R 书：每章节 + 节标题（下方各周已标 PDF 页码） |
+| 理论主线（必读） | R 书：每章节 + 节标题（下方各周已标 书内页码） |
 | 快速直觉 + 现代代码 | OpenAI Spinning Up: https://spinningup.openai.com/ |
 | 可直接跑的算法库 | stable-baselines3（DQN/PPO 基线对比）: https://stable-baselines3.readthedocs.io/ |
 | 任务环境 | Gymnasium: https://gymnasium.farama.org/ |
 
 **阅读规则**：先按"节标题"扫一遍建立地图 → 精读公式与证明思路（不必逐字）→ 做实验 → 用"自测"问题验收。R 书的 `*` 号节（如 *Off-policy Methods with Approximation）可放在第二遍读。
 
-| 课程主题 | R 书章节（PDF 页码） |
+| 课程主题 | R 书章节（书内页码） |
 |---|---|
-| 什么是 RL、agent–environment | Ch1 Introduction (p.23–44) |
-| 多臂老虎机 / 探索-利用 | Ch2 Multi-armed Bandits (p.47–68) |
-| MDP、回报、价值函数、Bellman 方程 | Ch3 Finite MDPs (p.69–94) |
-| 动态规划（DP） | Ch4 Dynamic Programming (p.95–112) |
-| 蒙特卡洛（MC） | Ch5 Monte Carlo Methods (p.113–140) |
-| TD 学习、Sarsa、Q-learning | Ch6 Temporal-Difference Learning (p.141–162) |
-| n-step bootstrapping | Ch7 n-step Bootstrapping (p.163–180) |
-| 模型、Dyna、规划、MCTS | Ch8 Planning and Learning with Tabular Methods (p.181–216) |
-| 函数近似（线性、tile coding、ANN） | Ch9 On-policy Prediction with Approximation (p.219–264) |
-| 半梯度控制 / DQN / 平均回报 | Ch10 On-policy Control with Approximation (p.265–278) |
-| off-policy 近似、死亡三联症 | Ch11 *Off-policy Methods with Approximation (p.279–308) |
-| 资格迹、TD(λ)、Sarsa(λ) | Ch12 Eligibility Traces (p.309–342) |
-| 策略梯度、REINFORCE、Actor-Critic | Ch13 Policy Gradient Methods (p.343–360) |
-| 心理学（Rescorla–Wagner、TD 模型） | Ch14 Psychology (p.363–398) |
-| 神经科学（多巴胺、RPE） | Ch15 Neuroscience (p.399–442) |
-| 应用案例（TD-Gammon、AlphaGo、Atari） | Ch16 Applications and Case Studies (p.443–480) |
-| 前沿（GVF、options、reward 设计） | Ch17 Frontiers (p.481–502) |
+| 什么是 RL、agent–environment | Ch1 Introduction (p.1–22) |
+| 多臂老虎机 / 探索-利用 | Ch2 Multi-armed Bandits (p.25–46) |
+| MDP、回报、价值函数、Bellman 方程 | Ch3 Finite MDPs (p.47–72) |
+| 动态规划（DP） | Ch4 Dynamic Programming (p.73–90) |
+| 蒙特卡洛（MC） | Ch5 Monte Carlo Methods (p.91–118) |
+| TD 学习、Sarsa、Q-learning | Ch6 Temporal-Difference Learning (p.119–140) |
+| n-step bootstrapping | Ch7 n-step Bootstrapping (p.141–158) |
+| 模型、Dyna、规划、MCTS | Ch8 Planning and Learning with Tabular Methods (p.159–194) |
+| 函数近似（线性、tile coding、ANN） | Ch9 On-policy Prediction with Approximation (p.197–242) |
+| 半梯度控制 / DQN / 平均回报 | Ch10 On-policy Control with Approximation (p.243–256) |
+| off-policy 近似、死亡三联症 | Ch11 *Off-policy Methods with Approximation (p.257–286) |
+| 资格迹、TD(λ)、Sarsa(λ) | Ch12 Eligibility Traces (p.287–320) |
+| 策略梯度、REINFORCE、Actor-Critic | Ch13 Policy Gradient Methods (p.321–338) |
+| 心理学（Rescorla–Wagner、TD 模型） | Ch14 Psychology (p.341–376) |
+| 神经科学（多巴胺、RPE） | Ch15 Neuroscience (p.377–420) |
+| 应用案例（TD-Gammon、AlphaGo、Atari） | Ch16 Applications and Case Studies (p.421–458) |
+| 前沿（GVF、options、reward 设计） | Ch17 Frontiers (p.459–480) |
 
 ## 3. 16 周总表
 
@@ -90,13 +90,13 @@
 
 #### W1 · 什么是 RL
 - **目标**：说清 RL 与监督/无监督学习的区别；掌握 agent–environment 接口与 reward hypothesis；搭好实验环境。
-- **阅读**：Ch1 (p.23–44)，重点 1.2 Examples、1.3 Elements、1.5 Tic-Tac-Toe。
+- **阅读**：Ch1 (p.1–22)，重点 1.2 Examples、1.3 Elements、1.5 Tic-Tac-Toe。
 - **实验**：Python 环境 + Gymnasium 跑通 `CartPole-v1` 随机 agent；`FrozenLake-v1` 看 episode 结构。
 - **交付物**：环境清单 + 随机 agent 的 10 局结果截图。
 - **自检**：RL 三要素？什么是 episode？reward 与 return 的区别？
 
 #### W2 · 多臂老虎机
-- **阅读**：Ch2 (p.47–68)，重点 2.3–2.7（10-armed testbed、nonstationary、optimistic、UCB、gradient bandit）。
+- **阅读**：Ch2 (p.25–46)，重点 2.3–2.7（10-armed testbed、nonstationary、optimistic、UCB、gradient bandit）。
 - **实验**：实现 10-armed testbed；对比 ε-greedy / optimistic / UCB / gradient bandit 的 cumulative reward 曲线；再做一次 nonstationary 场景。
 - **交付物**：4 条曲线图 + 参数消融（ε=0.1 vs 0.01）+ 结论 3 句话。
 - **自检**：为什么 incremental update 不用存所有样本？UCB 的 "confidence" 从何而来？
@@ -104,22 +104,22 @@
 ### 模块二 · 表格方法（W3–W8）
 
 #### W3 · 有限 MDP
-- **阅读**：Ch3 (p.69–94)，重点 3.2 Goals and Rewards、3.4 Policies/Value、3.5 Optimal、3.8 Bellman equations（章末汇总）。
+- **阅读**：Ch3 (p.47–72)，重点 3.2 Goals and Rewards、3.4 Policies/Value、3.5 Optimal、3.8 Bellman equations（章末汇总）。
 - **实验**：画一个 3–5 状态的 MDP；手算 + 代码算 V_π、q_π；验证 Bellman 方程两边相等。
 - **自检**：episodic 与 continuing 任务的 G_t 公式差异？V_π 和 q_π 的关系？
 
 #### W4 · 动态规划
-- **阅读**：Ch4 (p.95–112)，重点 4.2 策略评估、4.3 策略改进、4.4/4.5 policy/value iteration、4.6 GPI。
+- **阅读**：Ch4 (p.73–90)，重点 4.2 策略评估、4.3 策略改进、4.4/4.5 policy/value iteration、4.6 GPI。
 - **实验**：4×4 gridworld（风/随机转移）跑 policy iteration 与 value iteration；画策略演化。
 - **自检**：为什么 DP 需要"完整模型"？GPI 循环的两条腿是什么？
 
 #### W5 · 蒙特卡洛
-- **阅读**：Ch5 (p.113–140)，重点 5.1–5.5（MC prediction/control、without ES、importance sampling）。
+- **阅读**：Ch5 (p.91–118)，重点 5.1–5.5（MC prediction/control、without ES、importance sampling）。
 - **实验**：同一 gridworld 上 MC control（ES 与 ε-soft）；与 W4 的 DP 结果叠图对比。
 - **自检**：MC 为什么必须等 episode 结束？off-policy 的 IS 权重为什么容易爆炸？
 
 #### W6 · TD 学习 + 项目一
-- **阅读**：Ch6 (p.141–162)，重点 TD(0)、Sarsa、Q-learning、Expected Sarsa、double Q。
+- **阅读**：Ch6 (p.119–140)，重点 TD(0)、Sarsa、Q-learning、Expected Sarsa、double Q。
 - **项目一 · 四算法对比实验**（同一随机 gridworld）：
   - 实现 DP / MC / Sarsa / Q-learning 四个 control 算法
   - 输出：初始→最优的 value map 演化（4 帧）、cumulative reward 曲线、"到达最优策略"的 episode 数
@@ -127,12 +127,12 @@
 - **自检**：TD 更新为什么是"semi-gradient"？Sarsa 与 Q-learning 在"悬崖问题"上的行为差异？
 
 #### W7 · n-step bootstrapping
-- **阅读**：Ch7 (p.163–180)，重点 n-step TD、n-step Sarsa、Tree Backup、λ 视角（n=1 到 n=∞ 的谱）。
+- **阅读**：Ch7 (p.141–158)，重点 n-step TD、n-step Sarsa、Tree Backup、λ 视角（n=1 到 n=∞ 的谱）。
 - **实验**：CartPole 或 gridworld 上扫 n=1,2,4,8,∞，画收敛速度对比。
 - **自检**：n-step 在 sample efficiency 与 bias 上如何权衡？Tree Backup 解决了 off-policy n-step 的什么问题？
 
 #### W8 · 规划：Dyna 与 MCTS + 阶段考 2
-- **阅读**：Ch8 (p.181–216)，重点 Dyna、Prioritized Sweeping、RTDP、Rollout、MCTS（8.9–8.11）。
+- **阅读**：Ch8 (p.159–194)，重点 Dyna、Prioritized Sweeping、RTDP、Rollout、MCTS（8.9–8.11）。
 - **实验**：① Dyna-Q vs Q-learning 同任务对比；② 实现一个玩具 MCTS 下井字棋（tic-tac-toe）并击败随机玩家。
 - **阶段考 2**：Bellman 方程推导题、Sarsa/Q 更新式默写、IS 权重、Dyna 流程、"表格法 vs 近似法"边界。
 - **自检**：模型错了 Dyna 会怎样（Ch8.4）？MCTS 的 select/expand/simulate/backprop 四步？
@@ -140,27 +140,27 @@
 ### 模块三 · 深度强化学习基础（W9–W13）
 
 #### W9 · 函数近似：预测
-- **阅读**：Ch9 (p.219–264)，重点 9.3 stochastic/semi-gradient、9.4 线性方法、9.5 tile coding、9.7 神经网络、9.9 LSTD。
+- **阅读**：Ch9 (p.197–242)，重点 9.3 stochastic/semi-gradient、9.4 线性方法、9.5 tile coding、9.7 神经网络、9.9 LSTD。
 - **实验**：`MountainCarContinuous-v0` 或离散 MountainCar：线性特征（tile coding）TD 预测 + 小网络版本；对比曲线。
 - **自检**：semi-gradient 与普通 gradient 的区别（目标也在变）？tile coding 为什么能外推？
 
 #### W10 · 半梯度控制：DQN
-- **阅读**：Ch10 (p.265–278)，重点 10.2 semi-gradient n-step Sarsa、10.4（2nd ed. 的 DQN 要点：replay、target network）。
+- **阅读**：Ch10 (p.243–256)，重点 10.2 semi-gradient n-step Sarsa、10.4（2nd ed. 的 DQN 要点：replay、target network）。
 - **实验**：Gymnasium `CartPole-v1` / `BreakoutNoFrameskip-v4`：手写简化 DQN（replay buffer + target net）并与 SB3 的 DQN 对比。
 - **自检**：target network 为什么能稳住训练？replay 打散了什么？
 
 #### W11 · off-policy 近似与"死亡三联症"
-- **阅读**：Ch11 (p.279–308)，重点 11.2 发散例子、11.3 deadly triad、11.5–11.7（Bellman error、gradient-TD）。
+- **阅读**：Ch11 (p.257–286)，重点 11.2 发散例子、11.3 deadly triad、11.5–11.7（Bellman error、gradient-TD）。
 - **实验**：复现"线性 + bootstrapping + off-policy"发散（书 11.2 的场景）；记录发散曲线。
 - **自检**：三件套各是什么？DQN 的哪两个工程手段正好破掉其中两件？
 
 #### W12 · 资格迹
-- **阅读**：Ch12 (p.309–342)，重点 λ-return、TD(λ)、True Online TD(λ)、Sarsa(λ)、Q(λ) vs TB(λ) 谱系。
+- **阅读**：Ch12 (p.287–320)，重点 λ-return、TD(λ)、True Online TD(λ)、Sarsa(λ)、Q(λ) vs TB(λ) 谱系。
 - **实验**：λ 扫描（0, 0.25, 0.5, 0.75, 0.9, 1）在 CartPole/MountainCar 上的收敛对比。
 - **自检**：λ=0 与 λ=1 分别退化成什么？eligibility trace 的直觉（"最近访问过的状态多分点功劳"）？
 
 #### W13 · 策略梯度 + 项目二
-- **阅读**：Ch13 (p.343–360)，重点 13.2 PG theorem、13.3 REINFORCE、13.4 baseline、13.5 actor-critic。
+- **阅读**：Ch13 (p.321–338)，重点 13.2 PG theorem、13.3 REINFORCE、13.4 baseline、13.5 actor-critic。
 - **项目二 · 你的第一个"深度 RL"实验**（二选一任务：`LunarLander-v3` 或 `HalfCheetah` 简化版）：
   - 用 SB3 训练 DQN（若动作离散）与 PPO（连续动作），固定种子 ≥3 个
   - 输出：test 曲线（滑动平均）、最优/最差轨迹 gif、超参消融（LR、entropy coef 或 γ）
@@ -171,12 +171,12 @@
 ### 模块四 · 从脑到应用（W14–W16）
 
 #### W14 · 心理学与神经科学
-- **阅读**：Ch14 (p.363–398) 重点 14.3 Rescorla–Wagner 与 TD 模型；Ch15 (p.399–442) 重点 15.4 dopamine、15.6 TD error 对应。
+- **阅读**：Ch14 (p.341–376) 重点 14.3 Rescorla–Wagner 与 TD 模型；Ch15 (p.377–420) 重点 15.4 dopamine、15.6 TD error 对应。
 - **实验**：实现 Rescorla–Wagner 的 "blocking 效应" 模拟（条件刺激 A/B，先学 A 再学 AB），画预测值曲线；再用 TD 模型复现"延迟强化"的 RPE 波形。
 - **自检**：blocking 效应说明了什么？多巴胺 RPE 信号与 TD error 的对应证据？
 
 #### W15 · 应用案例 + 毕业开题
-- **阅读**：Ch16 (p.443–480) 重点 TD-Gammon、AlphaGo(Zero)、reward 设计；Ch17 Frontiers 中 "Designing Reward Signals" (p.491–494)。
+- **阅读**：Ch16 (p.421–458) 重点 TD-Gammon、AlphaGo(Zero)、reward 设计；Ch17 Frontiers 中 "Designing Reward Signals" (p.469–472)。
 - **交付物**：开题报告（1 页：目标、架构图、4 个里程碑 + 验收标准、风险预案、rubric 自评）。
 - **评审**：按 W16 课件的"评审检查清单"逐条过。
 

@@ -1,6 +1,6 @@
 # W05 · 蒙特卡洛方法（课件）
 
-> 对应阅读: Ch5 Monte Carlo Methods (PDF p.113–140)，重点 5.1–5.5
+> 对应阅读: Ch5 Monte Carlo Methods (p.91–118)，重点 5.1–5.5
 > 里程碑: 同一 gridworld 的 MC vs DP 叠图
 > 配套笔记: 建议 `Chapter-5-Monte-Carlo-Methods.md`（待写）
 

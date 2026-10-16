@@ -1,6 +1,6 @@
 # W14 · 心理学与神经科学（课件）
 
-> 对应阅读: Ch14 Psychology (PDF p.363–398) 重点 14.3；Ch15 Neuroscience (PDF p.399–442) 重点 15.4–15.6
+> 对应阅读: Ch14 Psychology (p.341–376) 重点 14.3；Ch15 Neuroscience (p.377–420) 重点 15.4–15.6
 > 里程碑: Rescorla–Wagner blocking 模拟 + TD 延迟强化 RPE 波形
 > 配套笔记: 建议 `Chapter-14-15-Brain-and-RL.md`（待写）
 

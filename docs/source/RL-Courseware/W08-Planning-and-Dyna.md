@@ -1,6 +1,6 @@
 # W08 · 规划：Dyna 与 MCTS + 阶段考 2（课件）
 
-> 对应阅读: Ch8 Planning and Learning with Tabular Methods (PDF p.181–216)，重点 8.2 Dyna、8.4 模型错了、8.7–8.11（RTDP/rollout/MCTS）
+> 对应阅读: Ch8 Planning and Learning with Tabular Methods (p.159–194)，重点 8.2 Dyna、8.4 模型错了、8.7–8.11（RTDP/rollout/MCTS）
 > 里程碑: Dyna vs Q 对比 + 玩具 MCTS（井字棋）+ 阶段考 2
 > 配套笔记: 建议 `Chapter-8-Planning-and-Dyna.md`（待写）
 

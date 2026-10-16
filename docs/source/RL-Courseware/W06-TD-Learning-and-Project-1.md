@@ -1,6 +1,6 @@
 # W06 · TD 学习（Sarsa/Q-learning）+ 项目一（课件）
 
-> 对应阅读: Ch6 Temporal-Difference Learning (PDF p.141–162)，重点 TD(0)、Sarsa、Q-learning、Expected Sarsa、double Q
+> 对应阅读: Ch6 Temporal-Difference Learning (p.119–140)，重点 TD(0)、Sarsa、Q-learning、Expected Sarsa、double Q
 > 里程碑: **项目一 · 四算法对比** + 阶段考 1
 > 配套笔记: 建议 `Chapter-6-Temporal-Difference-Learning.md`（待写）
 

@@ -1,6 +1,6 @@
 # W16 · 前沿 + 毕业答辩（课件）
 
-> 对应阅读: Ch17 Frontiers (PDF p.481–502)：GVF (p.481)、Options (p.483)、Observations vs State (p.486)、Reward Design (p.491)、Future (p.497)
+> 对应阅读: Ch17 Frontiers (p.459–480)：GVF (p.459)、Options (p.461)、Observations vs State (p.464)、Reward Design (p.469)、Future (p.475)
 > 里程碑: 最终演示 + 问答 + 提交（repo / 报告 / 视频）
 > 配套笔记: 建议 `Chapter-17-Frontiers-and-Recap.md`（课程收尾）
 
@@ -15,9 +15,9 @@
 
 | 方向 | 问题 | 一句话方案 |
 |---|---|---|
-| **GVF**（General Value Functions, p.481） | 只学"到达目标的价值"太窄 | 学**任意**条件期望（"距墙多远""还剩多少电池"），一次训练多个辅助信号 |
-| **Options**（Temporal Abstraction, p.483） | 动作粒度太细（步级） | 学"宏动作"（subpolicy + 终止条件 + 初始集），分层决策 |
-| **Observations vs State**（p.486） | 真实环境只给部分观察 | 信念状态 / POMDP 视角；课程里表格法默认全观察，这是它的边界 |
+| **GVF**（General Value Functions, p.459） | 只学"到达目标的价值"太窄 | 学**任意**条件期望（"距墙多远""还剩多少电池"），一次训练多个辅助信号 |
+| **Options**（Temporal Abstraction, p.461） | 动作粒度太细（步级） | 学"宏动作"（subpolicy + 终止条件 + 初始集），分层决策 |
+| **Observations vs State**（p.464） | 真实环境只给部分观察 | 信念状态 / POMDP 视角；课程里表格法默认全观察，这是它的边界 |
 
 → 答辩时若被问"你的方法的局限"，这三条都是标准答案。
 

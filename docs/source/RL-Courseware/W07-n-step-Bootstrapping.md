@@ -1,6 +1,6 @@
 # W07 · n-step Bootstrapping（课件）
 
-> 对应阅读: Ch7 n-step Bootstrapping (PDF p.163–180)，重点 7.1/7.2/7.6 Tree Backup、7.8 统一视角
+> 对应阅读: Ch7 n-step Bootstrapping (p.141–158)，重点 7.1/7.2/7.6 Tree Backup、7.8 统一视角
 > 里程碑: n 扫描曲线（n=1,2,4,8,∞）
 > 配套笔记: 建议 `Chapter-7-n-step-Bootstrapping.md`（待写）
 

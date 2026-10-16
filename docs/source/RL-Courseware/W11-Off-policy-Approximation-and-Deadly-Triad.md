@@ -1,6 +1,6 @@
 # W11 · off-policy 近似与"死亡三联症"（课件）
 
-> 对应阅读: Ch11 *Off-policy Methods with Approximation (PDF p.279–308)，重点 11.2 发散例、11.3 deadly triad、11.5 Bellman error
+> 对应阅读: Ch11 *Off-policy Methods with Approximation (p.257–286)，重点 11.2 发散例、11.3 deadly triad、11.5 Bellman error
 > 里程碑: 发散复现实验 + 解释报告
 > 配套笔记: 建议 `Chapter-11-Deadly-Triad.md`（待写）
 

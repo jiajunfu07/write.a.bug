@@ -1,6 +1,6 @@
 # W03 · 有限 MDP 与价值函数（课件）
 
-> 对应阅读: Ch3 Finite Markov Decision Processes (PDF p.69–94)，重点 3.2/3.4/3.5 + 章末 Bellman equations 汇总
+> 对应阅读: Ch3 Finite Markov Decision Processes (p.47–72)，重点 3.2/3.4/3.5 + 章末 Bellman equations 汇总
 > 里程碑: 3–5 状态 MDP 的 V/q 手算 + 代码验证
 > 配套笔记: 建议 `Chapter-3-Finite-MDPs.md`（待写）
 

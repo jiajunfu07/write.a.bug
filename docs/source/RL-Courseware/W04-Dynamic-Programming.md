@@ -1,6 +1,6 @@
 # W04 · 动态规划（课件）
 
-> 对应阅读: Ch4 Dynamic Programming (PDF p.95–112)，重点 4.2–4.6 + 4x4 gridworld 例
+> 对应阅读: Ch4 Dynamic Programming (p.73–90)，重点 4.2–4.6 + 4x4 gridworld 例
 > 里程碑: gridworld DP（policy iteration + value iteration）
 > 配套笔记: 建议 `Chapter-4-Dynamic-Programming.md`（待写）
 

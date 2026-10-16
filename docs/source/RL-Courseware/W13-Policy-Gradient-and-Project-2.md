@@ -1,6 +1,6 @@
 # W13 · 策略梯度 + 项目二（课件）
 
-> 对应阅读: Ch13 Policy Gradient Methods (PDF p.343–360)，重点 13.2 PG theorem、13.3 REINFORCE、13.4 baseline、13.5 actor-critic
+> 对应阅读: Ch13 Policy Gradient Methods (p.321–338)，重点 13.2 PG theorem、13.3 REINFORCE、13.4 baseline、13.5 actor-critic
 > 里程碑: **项目二 · 深度 RL 实验** + 阶段考 3
 > 配套笔记: 建议 `Chapter-13-Policy-Gradient.md`（待写）
 

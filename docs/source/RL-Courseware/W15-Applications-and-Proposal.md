@@ -1,6 +1,6 @@
 # W15 · 应用案例 + 毕业开题（课件）
 
-> 对应阅读: Ch16 Applications (PDF p.443–480) 重点 TD-Gammon/AlphaGo；Ch17 "Designing Reward Signals" (p.491–494)
+> 对应阅读: Ch16 Applications (p.421–458) 重点 TD-Gammon/AlphaGo；Ch17 "Designing Reward Signals" (p.469–472)
 > 里程碑: 开题报告（1 页）+ 评审
 > 配套笔记: 建议 `Chapter-16-Applications.md`（待写）
 
@@ -29,7 +29,7 @@
 - **AlphaGo Zero**：无人类棋谱，自对弈 + MCTS + 共享网络 → 20 小时超越 AlphaGo；
 - 映射回课程：MCTS=Ch8、value 网络=W9/10、自对弈=无监督数据生成、搜索+学习混合=Ch8 的"planning at decision time"。
 
-### 4. Reward 设计的 4 个陷阱（Ch17 p.491–494，开题必读）
+### 4. Reward 设计的 4 个陷阱（Ch17 p.469–472，开题必读）
 
 | 陷阱 | 例子 | 缓解 |
 |---|---|---|
